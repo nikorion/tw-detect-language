@@ -2,6 +2,8 @@
 
 **English** · [Français](README.fr.md)
 
+![Status](https://img.shields.io/badge/status-experimental-orange)
+
 Source of the [TiddlyWiki](https://tiddlywiki.com) plugin `$:/plugins/nikorion/detect-language`: internal tooling shared by every nikorion dev and demo wiki, not a feature plugin for end users. It sets the wiki's language from the browser's, and gives a wiki a way to translate its own demo content without shipping those strings inside the plugin it demonstrates.
 
 This README is for whoever wants to change the plugin. How to load it in a wiki and translate that wiki's content is the plugin's own readme (`src/detect-language/language/<lang>/readme.tid`).
